@@ -41,7 +41,7 @@ setup(name='camper',
         "wtforms",
         "embeddify",
         "awesome-slugify",
-        "weasyprint"
+        "weasyprint<=43"
       ],
       entry_points="""
           [paste.app_factory]
